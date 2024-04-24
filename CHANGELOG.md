@@ -2,6 +2,10 @@
 
 All notable changes to the "vue-vscode-snippets" extension will be documented in this file.
 
+## 0.0.1
+
+- Forked by Robert Zeng, and some features will be made for own requirement.
+
 ## 3.1.1
 
 - Update README
