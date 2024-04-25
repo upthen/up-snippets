@@ -1,27 +1,30 @@
 {
-  "name": "vue-vscode-snippets",
-  "displayName": "Vue VSCode Snippets",
-  "description": "Snippets that will supercharge your Vue workflow",
+  "name": "up-snippets",
+  "displayName": "Up Snippets",
+  "description": "Snippets that will supercharge your fontend workflow",
   "icon": "images/vue-logo.png",
-  "version": "3.1.1",
-  "publisher": "sdras",
+  "version": "0.0.1",
+  "publisher": "Robert Zeng",
   "engines": {
     "vscode": "^1.14.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sdras/vue-vscode-snippets.git"
+    "url": "https://github.com/upthen/up-snippets.git"
   },
   "scripts": {
-    "build": "vsce package -o vue-vscode-snippets-$npm_package_version.vsix",
-    "install": "yarn build && code --install-extension vue-vscode-snippets-$npm_package_version.vsix"
+    "build": "vsce package -o up-snippets-$npm_package_version.vsix",
+    "install": "yarn build && code --install-extension up-snippets-$npm_package_version.vsix"
   },
   "keywords": [
     "Vue",
     "Vue 3",
     "Vue 2",
     "Composition API",
-    "Vue Snippets"
+    "Vue Snippets",
+    "React",
+    "Hooks",
+    "Snippets"
   ],
   "categories": [
     "Snippets"
@@ -31,6 +34,10 @@
       {
         "language": "vue",
         "path": "./snippets/vue.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/up.json"
       },
       {
         "language": "jade",

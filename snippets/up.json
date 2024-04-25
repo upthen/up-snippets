@@ -1,0 +1,48 @@
+{
+  "Vue Single File Component With Props Setup Less Ts": {
+    "prefix": "up-v3-c-setup-ts-less-scoped",
+    "body": [
+      "<template>",
+      "\t<div class=\"container\">",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "\timport { ref } from 'vue'",
+      "\t\t${0}",
+      "\t",
+      "</script>",
+      "",
+      "<style lang=\"less\" scoped>",
+      "\t.container {",
+      "\t\t${0}",
+      "\t}",
+      "</style>"
+    ],
+    "description": "Vue3 Component with setup, ts, less, scoped"
+  },
+    "Vue Single File Component With Props Setup Scss Ts": {
+    "prefix": "up-v3-c-setup-ts-scss-scoped",
+    "body": [
+      "<template>",
+      "\t<div class=\"container\">",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "\timport { ref } from 'vue'",
+      "\t\t${0}",
+      "\t",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "\t.container {",
+      "\t\t${0}",
+      "\t}",
+      "</style>"
+    ],
+    "description": "Vue3 Component with setup, ts, less, scoped"
+  }
+}
