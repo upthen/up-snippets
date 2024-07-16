@@ -13,16 +13,30 @@ vue-vscode-snippets 中提供了大量好用、易用的代码片段，我在日
 
 ## TODO
 
-- 🐬 [ ] react 页面模板；
-- 🦊 [ ] react hooks 模板；
+- 🐬 [√] react 页面模板；
+- 🦊 [√] react hooks 模板；
 - 🐶 [ ] axios 网络请求模板；
 
 ## Vue
 
 | snippets                       | Purpose                                            |
 | ------------------------------ | -------------------------------------------------- |
-| `up-v3-c-setup-ts-less-scoped` | Vue Single File Component With Props Setup Less Ts |
-| `up-v3-c-setup-ts-scss-scoped` | Vue Single File Component With Props Setup Scss Ts |
+| `up-v3comp-less` | Vue Single File Component With Props Setup Less Ts |
+| `up-v3comp-scss` | Vue Single File Component With Props Setup Scss Ts |
+
+
+## React
+| snippets                       | Purpose                                            |
+| ------------------------------ | -------------------------------------------------- |
+| `up-rfc` | React Functional Component |
+| `up-rcc` | React Class Component |
+| `up-ruse` | React Hook |
+
+## TypeScript
+| snippets                       | Purpose                                            |
+| ------------------------------ | -------------------------------------------------- |
+| `up-v3use` | Vue3 Composition API |
+| `up-ruse` | React Hook |
 
 ## 提示
 

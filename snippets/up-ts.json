@@ -1,0 +1,53 @@
+{
+  "Vue3 Composition API": {
+    "prefix": "up-v3use",
+    "body": [
+      "import { ref } from 'vue'",
+      "",
+      "export default function () {",
+      "\tconst count = ref<string>('')",
+      "",
+      "\treturn {",
+      "\t\tcount",
+      "\t}",
+      "}"
+    ],
+    "description": "Vue3 Composition API"
+  },
+  "Vue3 createPinia API": {
+    "prefix": "up-v3pinia-create",
+    "body": [
+      "import { createPinia } from 'pinia'",
+      "const pinia = createPinia()",
+      "app.use(pinia)"
+    ],
+    "description": "Vue3 createPinia API"
+  },
+  "Vue3 define Pinia Store":{
+    "prefix": "up-v3pinia-store",
+    "body": [
+      "export const useStore = defineStore('store', () => {",
+      "\tconst myStore = ref('')",
+      "\treturn {",
+      "\t\tmyStore",
+      "\t}",
+      "})"
+    ],
+    "description": "Vue3 define Pinia Store"
+  },
+  "React Hooks": {
+    "prefix": "up-ruse",
+    "body": [
+      "import { useState } from 'react'",
+      "",
+      "export default function () {",
+      "\tconst [count, setCount] = useState(0)",
+      "",
+      "\treturn [",
+      "\t\tcount",
+      "\t]",
+      "}"
+    ],
+    "description": "React Hooks"
+  }
+}

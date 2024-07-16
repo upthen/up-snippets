@@ -1,6 +1,6 @@
 {
   "Vue Single File Component With Props Setup Less Ts": {
-    "prefix": "up-v3-c-setup-ts-less-scoped",
+    "prefix": "up-v3comp-less",
     "body": [
       "<template>",
       "\t<div class=\"container\">",
@@ -9,21 +9,20 @@
       "</template>",
       "",
       "<script setup lang=\"ts\">",
-      "\timport { ref } from 'vue'",
-      "\t\t${0}",
-      "\t",
+      "import { ref } from 'vue'",
+      "${0}",
       "</script>",
       "",
       "<style lang=\"less\" scoped>",
-      "\t.container {",
-      "\t\t${0}",
-      "\t}",
+      ".container {",
+      "\t${0}",
+      "}",
       "</style>"
     ],
     "description": "Vue3 Component with setup, ts, less, scoped"
   },
-    "Vue Single File Component With Props Setup Scss Ts": {
-    "prefix": "up-v3-c-setup-ts-scss-scoped",
+  "Vue Single File Component With Props Setup Scss Ts": {
+    "prefix": "up-v3comp-scss",
     "body": [
       "<template>",
       "\t<div class=\"container\">",
@@ -32,17 +31,31 @@
       "</template>",
       "",
       "<script setup lang=\"ts\">",
-      "\timport { ref } from 'vue'",
-      "\t\t${0}",
-      "\t",
+      "import { ref } from 'vue'",
+      "${0}",
       "</script>",
       "",
       "<style lang=\"scss\" scoped>",
-      "\t.container {",
-      "\t\t${0}",
-      "\t}",
+      ".container {",
+      "\t${0}",
+      "}",
       "</style>"
     ],
     "description": "Vue3 Component with setup, ts, less, scoped"
+  },
+  "Vue3 Composition API": {
+    "prefix": "up-v3use",
+    "body": [
+      "import { ref } from 'vue'",
+      "",
+      "export default function () {",
+      "\tconst count = ref<string>('')",
+      "",
+      "\treturn {",
+      "\t\tcount",
+      "\t}",
+      "}"
+    ],
+    "description": "Vue3 Composition API"
   }
 }

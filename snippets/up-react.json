@@ -1,0 +1,19 @@
+{
+  "React Functional Component": {
+    "prefix": "up-rfc",
+    "body": [
+      "import React, { useState } from'react'",
+      "",
+      "const myComponent = () => {",
+      "\tconst [count, setCount] = useState(0)",
+      "\treturn (<>",
+      "\t\t<div>",
+      "\t\t\t<p>Count: {count}</p>",
+      "\t\t</div>",
+      "\t</>)",
+      "}",
+      "export default myComponent"
+    ],
+    "description": "React Functional Component"
+  }
+}

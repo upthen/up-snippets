@@ -1,12 +1,13 @@
 {
   "name": "up-snippets",
   "displayName": "Up Snippets",
-  "description": "Snippets that will supercharge your fontend workflow",
+  "description": "Snippets that will supercharge your frontend workflow",
   "icon": "images/vue-logo.png",
   "version": "0.0.1",
   "publisher": "Robert Zeng",
   "engines": {
-    "vscode": "^1.14.0"
+    "vscode": ">=1.70.0",
+    "node": ">=16.0.0"
   },
   "repository": {
     "type": "git",
@@ -34,10 +35,6 @@
       {
         "language": "vue",
         "path": "./snippets/vue.json"
-      },
-      {
-        "language": "vue",
-        "path": "./snippets/up.json"
       },
       {
         "language": "jade",
@@ -86,6 +83,18 @@
       {
         "language": "typescript",
         "path": "./snippets/nuxt-config.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/up-vue.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/up-react.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/up-ts.json"
       }
     ]
   }
